@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+    </head>
+    <body>
+        <script src="상속.js">
+            // //22행으로 인해서 객체가 생성할 때, prototype이라는 속성을 생성자 함수가 가지고 있는지 확인한다.
+            // function Person(name){
+            //     this.name = name;
+            // }
+            // Person.prototype.name=null;
+            // Person.prototype.introduce = function(){
+            //     return 'My name is '+this.name; 
+            // }
+            
+            // //생성자 Programmer
+            // function Programmer(name){
+            //     this.name = name;
+            // }
+            // //생성자 Programmer의 속성 중에 prototype이라는 특수한 속성값으로 Person객체 생성
+            // Programmer.prototype = new Person();
+            
+            // //생성자의 객체를 만들었다.
+            // var p1 = new Programmer('egoing');
+            // document.write(p1.introduce()+"<br />");
+
+
+            // function Person(name){
+            // this.name = name;
+            // }
+            // Person.prototype.name=null;
+            // Person.prototype.introduce = function(){
+            //     return 'My name is '+this.name; 
+            // }
+            
+            // function Programmer(name){
+            //     this.name = name;
+            // }
+            // Programmer.prototype = new Person();
+            // Programmer.prototype.coding = function(){
+            //     return "hello world";
+            // }
+
+            // function Designer(name){
+            //     this.name = name;
+            // }
+            // Designer.prototype = new Person();
+            // Designer.prototype.design = function(){
+            //     return "hello world";
+            // }
+            
+            // var p1 = new Programmer('egoing');
+            // document.write(p1.introduce()+"<br />");
+            // document.write(p1.coding()+"<br />");
+
+            // var p1 = new Designer('egoing');
+            // document.write(p1.introduce()+"<br />");
+            // document.write(p1.design()+"<br />");
+        </script>
+    </body>
+</html>
